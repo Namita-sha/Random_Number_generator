@@ -1,0 +1,52 @@
+/*body{
+    font-family: Verdana;
+    text-align: center;
+}
+#myButton{
+    font-size: 3em;
+    padding: 5px 25px;
+    border-radius:  5px;
+}
+.myLabels{
+    font-size: 3em;
+}
+    */
+    body {
+        font-family: Verdana;
+        text-align: center;
+       background: radial-gradient(blue,black);
+        padding: 20px;
+      
+    }
+    
+    #myButton {
+        font-size: 2em;
+        padding: 10px 30px;
+        border-radius: 10px;
+        border: none;
+        background-color: #d11d6b;
+        color: white;
+        cursor: pointer;
+        margin-bottom: 20px;
+        transition: background-color 0.3s;
+    }
+    
+    #myButton:hover {
+        background-color: #3817a3;
+    }
+    
+    .myLabels {
+        font-size: 5em;
+        display: inline-block;
+        margin: 20px;
+        background: white;
+        width: 100px;
+        height: 100px;
+        line-height: 100px;
+        border-radius: 20px;
+        box-shadow: 0px 4px 8px rgba(66, 12, 183, 0.2);
+    }
+
+
+
+     
